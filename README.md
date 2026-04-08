@@ -2,9 +2,23 @@
 
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/b7c87bf6-dfff-42fe-b8d1-9be9e6c7ce86">
 
+## Collaborative AI Reasoning (Core Idea)
+
+This project is a **demo of a collaborative AI reasoning architecture**, where multiple AI agents work together to analyze complex problems from different perspectives.
+
+Instead of relying on a single model to generate answers, this approach decomposes reasoning into **specialized agents** that operate **in parallel**, each contributing structured insights. These insights are then aggregated into a final, explainable outcome.
+
+The goal is to move beyond single-model responses toward **coordinated, multi-perspective AI systems** that are more transparent, robust, and scalable.
+
+👉 **Medical diagnostics in this repository is one concrete use case of this broader architecture.**
+
+---
+
+## 🏥 AI Agents for Medical Diagnostics (Use Case)
+
 A Python project that creates specialized **LLM-based AI agents** to analyze complex medical cases.  
 The system integrates insights from different medical specialists to provide comprehensive assessments  
-and suggested treatment directions, demonstrating the potential of AI in multidisciplinary medicine.
+and suggested treatment directions, demonstrating the potential of AI in multidisciplinary reasoning.
 
 ⚠️ **Disclaimer**: This project is for research and educational purposes only.  
 It is **not intended for clinical use**.
