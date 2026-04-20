@@ -1,10 +1,45 @@
 ### Final Diagnosis:
 
-- Panic disorder with hyperventilation/dysfunctional breathing
-  - Reason: Abrupt 10–20 minute episodes of palpitations, chest tightness, dyspnea, diaphoresis, and “impending doom” with a normal cardiac workup; history of anxiety; pulmonology notes panic-related hyperventilation/dysfunctional breathing.
+**Final Diagnosis:**
 
-- Intermittent cardiac arrhythmia (paroxysmal SVT or symptomatic ectopy; brief AF less likely but possible)
-  - Reason: Palpitations/skipped beats with occasional PVCs documented; a 24-hour Holter can miss brief paroxysms; cardiology recommends extended ambulatory monitoring and consumer ECG capture; symptoms may be provoked by stress/caffeine or posture (IST/POTS also considered).
+Based on the comprehensive reports from the cardiologist, psychologist, and pulmonologist, the final diagnosis is:
 
-- GERD with esophageal spasm and reflux-related laryngeal/bronchospasm
-  - Reason: GERD/esophageal spasm can mimic angina and trigger chest tightness/dyspnea; pulmonology notes reflux-induced laryngospasm/bronchospasm; plans include optimized PPI timing, possible BID trial, alginate, and ENT evaluation for laryngopharyngeal reflux/inducible laryngeal obstruction.
+1. **Panic Disorder**: The patient's symptoms of sudden episodes of intense chest pain, heart palpitations, shortness of breath, dizziness, and sweating, accompanied by a feeling of impending doom, are consistent with panic disorder.
+2. **Anxiety Disorder**: Given the patient's history of anxiety and current symptoms, it is possible that he may be experiencing an anxiety disorder, such as generalized anxiety disorder or panic disorder with agoraphobia.
+3. **Cardiac Syndrome X**: The patient's symptoms of chest pain and electrocardiographic changes, despite normal coronary angiography, suggest cardiac syndrome X.
+4. **Gastroesophageal Reflux Disease (GERD)**: The patient's history of GERD and symptoms of acid reflux may be contributing to some of the symptoms, particularly if the patient experiences acid reflux during episodes.
+
+**Comprehensive Treatment Plan:**
+
+**Psychological Treatment:**
+
+1. **Cognitive Behavioral Therapy (CBT)**: Continue with CBT to address the patient's anxiety symptoms and learn coping strategies to manage panic attacks.
+2. **Medication Management**: Discuss alternative anxiety medications with the primary care physician, such as selective serotonin reuptake inhibitors (SSRIs) or serotonin-norepinephrine reuptake inhibitors (SNRIs).
+3. **Stress Management**: Engage in stress-reducing activities, such as yoga, meditation, or deep breathing exercises, to help manage anxiety levels.
+4. **Lifestyle Changes**: Establish a regular exercise routine, reduce caffeine and alcohol intake, and adopt a balanced diet to improve overall well-being.
+
+**Cardiac Treatment:**
+
+1. **Cardiac Stress Test**: Perform a cardiac stress test (e.g., exercise stress test or pharmacological stress test) to rule out cardiac causes of the symptoms.
+2. **Holter Monitor**: Continue with a longer-term Holter monitor (e.g., 48-hour or 7-day monitoring) to capture more episodes of symptoms and assess for any arrhythmias.
+3. **Cardiac MRI**: Consider a cardiac MRI to assess for any cardiac abnormalities, such as myocardial fibrosis or microvascular disease.
+
+**Respiratory Treatment:**
+
+1. **Pulmonary Function Tests (PFTs)**: Perform PFTs, including spirometry and lung volume measurements, to rule out any underlying respiratory conditions, such as asthma or COPD.
+2. **Chest X-ray**: Perform a chest X-ray to rule out any underlying pulmonary conditions, such as pneumonia or pulmonary embolism.
+
+**Lifestyle Modifications:**
+
+1. **Regular Exercise**: Establish a regular exercise routine to improve overall well-being and reduce anxiety levels.
+2. **Stress Management**: Engage in stress-reducing activities, such as yoga, meditation, or deep breathing exercises, to help manage anxiety levels.
+3. **Balanced Diet**: Adopt a balanced diet to improve overall well-being and reduce symptoms of anxiety and panic disorder.
+
+**Follow-up Appointments:**
+
+Schedule regular follow-up appointments with the primary care physician, cardiologist, and psychologist to monitor the patient's symptoms and adjust the treatment plan as needed.
+
+**Additional Considerations:**
+
+1. **Sleep Evaluation**: Evaluate the patient's sleep patterns and consider a sleep study if necessary.
+2. **Cardiac Evaluation**: Continue monitoring the patient's cardiac status and consider further cardiac evaluation, such as a stress test or cardiac MRI, if the patient's symptoms persist or worsen.
