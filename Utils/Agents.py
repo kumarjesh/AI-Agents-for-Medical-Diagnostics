@@ -2,31 +2,27 @@ import os
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
+import streamlit as st
 
-# Load the API key right here to guarantee the LLM can see it
+# Load local .env file if it exists
 load_dotenv()
 
+# Foolproof API Key Routing
+try:
+    # CLOUD: Try to grab the key directly from Streamlit Secrets
+    groq_key = st.secrets["GROQ_API_KEY"]
+except Exception:
+    # LOCAL: Fallback to your computer's .env file
+    groq_key = os.getenv("GROQ_API_KEY")
+
+# Pass the key explicitly to LangChain
 llm = ChatGroq(
+    api_key=groq_key,
     model="llama-3.1-8b-instant",
     temperature=0.2
 )
 
-class Cardiologist:
-    def __init__(self, patient_data: str):
-        self.patient_data = patient_data
-        
-    def run(self) -> str:
-        print("Cardiologist is running...")
-        prompt = PromptTemplate(
-            input_variables=["patient_data"],
-            template="You are an expert Cardiologist. Review the following patient data and provide your cardiovascular diagnosis and recommendations:\n\n{patient_data}"
-        )
-        chain = prompt | llm
-        try:
-            response = chain.invoke({"patient_data": self.patient_data})
-            return response.content
-        except Exception as e:
-            return f"Cardiologist API Error: {str(e)}"
+# ... [Keep all your class Cardiologist, Psychologist, etc. exactly as they are below this line] ...
 
 class Psychologist:
     def __init__(self, patient_data: str):
