@@ -6,3 +6,7 @@ python-dotenv
 langchain_ollama
 reportlab
 dotenv
+streamlit
+langchain-groq
+langchain-core
+python-dotenv
