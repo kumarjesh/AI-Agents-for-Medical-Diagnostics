@@ -22,7 +22,22 @@ llm = ChatGroq(
     temperature=0.2
 )
 
-# ... [Keep all your class Cardiologist, Psychologist, etc. exactly as they are below this line] ...
+class Cardiologist:
+    def __init__(self, patient_data: str):
+        self.patient_data = patient_data
+        
+    def run(self) -> str:
+        print("Cardiologist is running...")
+        prompt = PromptTemplate(
+            input_variables=["patient_data"],
+            template="You are an expert Cardiologist. Review the following patient data and provide your cardiovascular diagnosis and recommendations:\n\n{patient_data}"
+        )
+        chain = prompt | llm
+        try:
+            response = chain.invoke({"patient_data": self.patient_data})
+            return response.content
+        except Exception as e:
+            return f"Cardiologist API Error: {str(e)}"
 
 class Psychologist:
     def __init__(self, patient_data: str):
