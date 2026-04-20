@@ -3,16 +3,13 @@ from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
 
+# Load the API key right here to guarantee the LLM can see it
 load_dotenv()
 
-# Swap Google for Groq's fast LLaMA 3 model
-# Swap the decommissioned model for the active 3.1 version
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
     temperature=0.2
 )
-
-# ... (keep your Cardiologist, Psychologist, etc. classes exactly as they are below this)python -m pip install langchain-groq
 
 class Cardiologist:
     def __init__(self, patient_data: str):
@@ -29,8 +26,7 @@ class Cardiologist:
             response = chain.invoke({"patient_data": self.patient_data})
             return response.content
         except Exception as e:
-            print(f"Cardiologist Error: {e}")
-            return "Error generating Cardiology report."
+            return f"Cardiologist API Error: {str(e)}"
 
 class Psychologist:
     def __init__(self, patient_data: str):
@@ -47,8 +43,7 @@ class Psychologist:
             response = chain.invoke({"patient_data": self.patient_data})
             return response.content
         except Exception as e:
-            print(f"Psychologist Error: {e}")
-            return "Error generating Psychology report."
+            return f"Psychologist API Error: {str(e)}"
 
 class Pulmonologist:
     def __init__(self, patient_data: str):
@@ -65,11 +60,9 @@ class Pulmonologist:
             response = chain.invoke({"patient_data": self.patient_data})
             return response.content
         except Exception as e:
-            print(f"Pulmonologist Error: {e}")
-            return "Error generating Pulmonology report."
+            return f"Pulmonologist API Error: {str(e)}"
 
 class MultidisciplinaryTeam:
-    # Fixed the initialization arguments to exactly match what main.py is passing
     def __init__(self, cardiologist_report: str, psychologist_report: str, pulmonologist_report: str):
         self.cardio_report = cardiologist_report
         self.psych_report = psychologist_report
@@ -102,5 +95,4 @@ class MultidisciplinaryTeam:
             })
             return response.content
         except Exception as e:
-            print(f"MultidisciplinaryTeam Error: {e}")
-            return "Error generating Final Diagnosis."
+            return f"MultidisciplinaryTeam API Error: {str(e)}"
